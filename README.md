@@ -11,6 +11,8 @@ Please be carefull while uploading. Uploading wrong version can make your device
 	-Com port is the USB port which EFIS Panel connected. 
 	-Check baud rate is 57600 and then upload the hex file. 
 	
-Important Note: While uploading, never interrupt the communication of the EFIS Panel. Otherwise, there is no way to recovery if damaged.
+Important Note: While uploading, never interrupt the communication of the EFIS Panel. Otherwise, there is no way to recovery the unit if damaged.
+
+https://coreflighttech.com/product/boeing-737-efis-panel/
 
 Any feedback, please leave an e-mail to info@coreflighttech.com
