@@ -8,8 +8,8 @@ Please be careful while uploading. Uploading the wrong version can make your dev
 	-Connect MCP via USB. 
 	-Run Xloader.exe 
 	-Click "Hex File" selection button. 
-	-Find correct .hex file. And then 
-        -Select device as Duemilanove/Nano(ATmega328). 
+	-Find correct .hex file.
+	-Select device as Duemilanove/Nano(ATmega328).
 	-Com port is the USB port which EFIS Panel connected. 
 	-Check baud rate is 57600 and then upload the hex file. 
 	
