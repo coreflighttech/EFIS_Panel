@@ -4,7 +4,7 @@ How to upload Firmware to the Core Flight Tech. B737 EFIS Panel?
 
 Please be carefull while uploading. Uploading wrong version can make your device totally useless.
 
-	-Close all applications and be sure X-Plane 11 is not running at the background. 
+	-Close all applications and be sure X-Plane 11 is not running in the background. 
 	-Connect MCP via USB. Open Xloader.exe 
 	-Click "Hex File" selection button. 
 	-Find correct hex file. And then Select device as Duemilanove/Nano(ATmega328). 
