@@ -1,5 +1,4 @@
 # EFIS Panel
-EFIS Panel Lever firmware is for X-Plane11 Zibo737 via XPLDirect Plug-In
 
 How to upload Firmware to the Core Flight Tech. B737 EFIS Panel?
 
