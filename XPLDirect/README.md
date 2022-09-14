@@ -4,16 +4,22 @@ How to upload Firmware to the Core Flight Tech. B737 EFIS Panel?
 
 Please be careful while uploading. Uploading the wrong version can make your device totally useless.
 
-	-Close all applications and be sure X-Plane 11 is not running in the background. 
-	-Connect MCP via USB. 
-	-Run Xloader.exe 
-	-Click "Hex File" selection button. 
-	-Find correct .hex file.
-	-Select device as Duemilanove/Nano(ATmega328).
-	-Com port is the USB port which EFIS Panel connected. 
-	-Check baud rate is 57600 and then upload the hex file. 
+        -Download the "Uploader" -> https://github.com/coreflighttech/Uploader
+	-Close all applications and be sure X-Plane 11 is not running in the background
+	-Connect EFIS via USB
+	-Run Xloader.exe in the "Uploader"
+	-Click "Hex File" selection button.
+	-Search in your computer and select the "XPLDirect_xyz_EFIS_abc_v123.hex" file
+	-Select the device as "EFIS/NAV/COMM/ATC/ADF V1"
+	-Com port is the USB port which EFIS connected
+	-Click Upload button
+		If Xloader still says "Uploading" after 1 min., disconnect the USB cable and then connect it
+			-Select the device as "EFIS/NAV/COMM/ATC/ADF V2"
+			-Check the Com Port is the USB port which connected to EFIS
+			-Click Upload button
 	
-Important Note: While uploading, never interrupt the communication of the EFIS Panel. Otherwise, there is no way to recovery the unit if damaged.
+	
+Important Note: Interrupting communication while uploading, can damage your device MCU.
 
 https://coreflighttech.com/product/boeing-737-efis-panel/
 
