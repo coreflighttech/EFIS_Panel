@@ -18,7 +18,9 @@ Please be careful while uploading. Uploading the wrong version can make your dev
 			-Check the Com Port is the USB port which connected to EFIS
 			-Click Upload button
 	
-	
+	-Follow loading config file to the MF.
+
+
 Important Note: Interrupting communication while uploading, can damage your device MCU.
 
 https://coreflighttech.com/product/boeing-737-efis-panel/
