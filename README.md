@@ -7,7 +7,6 @@ Mobiflight: https://www.mobiflight.com/en/index.html
 
 SPAD.neXt: https://www.spadnext.com/home.html
 
-Important Note: While uploading, interrupting the communication can damage the MCU of the unit.
 
 https://coreflighttech.com/product/boeing-737-efis-panel/
 
