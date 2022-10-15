@@ -10,6 +10,13 @@ Internal device features:
 - Turn on/off backlight by pressing FPV + MTRS
 - Set backlight brightness level by pressing  FPV and turning BARO encoder
 
+CFT_737_EFIS_PANEL_SPAD_1L2P_R02b_20221014_1410:
+
+"The EFIS panel may not be fully initialized when rebooting the PC or after reconnecting it to an USB port. Everything seems to be fine but serial COMs are in a strange state.
+As workaround you may have to soft reset the EFIS panel by pressing FPV and MTRS buttons at the same time. The backlight should blink 5 times.
+You will have to perform this soft reset only once before starting SPAD, but every time the PC or the EFIS Panel are restarted.
+Then when SPAD is started, and if the panel is fully ok, pressing both buttons will only turn ON and OFF the backlight without resetting it."
+
 SPAD Snippet EFIS #6486 or "Core Flight Technologies PMDG 737 EFIS Panel complete device (testing)"
 
 ![screenshot](https://user-images.githubusercontent.com/53659578/193854791-ab4db9c9-fb3a-49d3-8993-2548e0928471.png)
