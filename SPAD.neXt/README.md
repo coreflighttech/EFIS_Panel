@@ -10,6 +10,9 @@ Internal device features:
 - Turn on/off backlight by pressing FPV + MTRS
 - Set backlight brightness level by pressing  FPV and turning BARO encoder
 
+CFT_737_EFIS_PANEL_SPAD_1L2P_R02c_20221022_1553
+"Soft reset by pressing FPV and MTRS should not be needed anymore after a cold reboot of the EFIS device. Not a very academic fix, but it looks ok." @1L2P
+
 CFT_737_EFIS_PANEL_SPAD_1L2P_R02b_20221014_1410:
 
 "The EFIS panel may not be fully initialized when rebooting the PC or after reconnecting it to an USB port. Everything seems to be fine but serial COMs are in a strange state.
