@@ -12,7 +12,7 @@
   <InputMultiplexer Name="CPT_EFIS_InMux3" DataPin="12" NumBytes="1">
     <Selector Name="MultiplexerDriver" PinSx="2 3 4 13" />
   </InputMultiplexer>
-  <Output Name="CPT_EFIS_BLIGH" Pin="11" />
+  <Output Name="CPT_EFIS_BLIGHT" Pin="11" />
   <Button Name="CPT_EFIS_ADF1" Pin="14" />
   <Button Name="CPT_EFIS_ADF2" Pin="15" />
   <Button Name="CPT_EFIS_VOR1" Pin="16" />
