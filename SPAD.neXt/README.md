@@ -7,6 +7,7 @@ Baud Rate is 115200
 Details will be added.
 
 Internal device features:
+- Turn on/off backlight by pressing FPV + MTRS 
 - Set backlight brightness level by pressing  FPV and turning BARO encoder
 
 
@@ -16,6 +17,9 @@ SPAD Snippet EFIS #6486 or "Core Flight Technologies PMDG 737 EFIS Panel complet
 ![screenshot](https://user-images.githubusercontent.com/53659578/193854791-ab4db9c9-fb3a-49d3-8993-2548e0928471.png)
 
 Version Notes:
+
+CFT_737_EFIS_PANEL_SPAD_1L2P_R04b:
+"Official VIP PID registration, State scan feature is now enabled, new VIRTUAL_POWER variable is available."
 
 CFT_737_EFIS_PANEL_SPAD_1L2P_R04:
 "Official VIP PID registration, State scan feature is now enabled, new VIRTUAL_POWER variable is available."
