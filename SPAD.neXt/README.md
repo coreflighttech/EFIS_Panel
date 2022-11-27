@@ -21,6 +21,11 @@ As workaround you may have to soft reset the EFIS panel by pressing FPV and MTRS
 You will have to perform this soft reset only once before starting SPAD, but every time the PC or the EFIS Panel are restarted.
 Then when SPAD is started, and if the panel is fully ok, pressing both buttons will only turn ON and OFF the backlight without resetting it."
 
+CFT_737_EFIS_PANEL_SPAD_1L2P_R04:
+
+"Official VIP PID registration, State scan feature is now enabled, new VIRTUAL_POWER variable is available."
+
 SPAD Snippet EFIS #6486 or "Core Flight Technologies PMDG 737 EFIS Panel complete device (testing)"
+
 
 ![screenshot](https://user-images.githubusercontent.com/53659578/193854791-ab4db9c9-fb3a-49d3-8993-2548e0928471.png)
