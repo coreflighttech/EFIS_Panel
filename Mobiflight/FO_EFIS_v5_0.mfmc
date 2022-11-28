@@ -5,7 +5,7 @@
   <InputMultiplexer Name="FO_EFIS_InMux1" DataPin="5" NumBytes="1">
     <Selector Name="MultiplexerDriver" PinSx="2 3 4 13" />
   </InputMultiplexer>
-  <InputMultiplexer Name="FO_InMux2" DataPin="6" NumBytes="1">
+  <InputMultiplexer Name="FO_EFIS_InMux2" DataPin="6" NumBytes="1">
     <Selector Name="MultiplexerDriver" PinSx="2 3 4 13" />
   </InputMultiplexer>
   <InputMultiplexer Name="FO_EFIS_InMux3" DataPin="12" NumBytes="1">
