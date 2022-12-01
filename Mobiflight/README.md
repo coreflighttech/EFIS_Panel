@@ -21,7 +21,7 @@ Please be careful while uploading. Uploading the wrong version can make your dev
 	-Follow loading config file to the MF.
 
 
-Important Note: Interrupting communication while uploading, can damage your device MCU.
+Important Note: Interrupting communication while uploading, may damage your device MCU.
 
 https://coreflighttech.com/product/boeing-737-efis-panel/
 
