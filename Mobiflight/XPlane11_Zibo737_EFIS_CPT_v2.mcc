@@ -3,7 +3,7 @@
   <outputs>
     <config guid="5b746665-a6aa-4bf4-a7eb-f73d87765a64">
       <active>true</active>
-      <description>XP11 EFIS CPT Adjustable Backlighting - Turn Main Panel Brightness Knob</description>
+      <description>XP11 EFIS CPT Adjustable Backlighting - Turn Main Panel Brightness Knob -&gt; CHECK YOUTUBE VIDEO FOR MORE</description>
       <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="XplaneDataRef" path="sim/cockpit2/switches/panel_brightness_ratio[0]" />
         <modifiers>
