@@ -1,5 +1,8 @@
 # EFIS Panel
 
+XPlane11_Zibo737_EFIS_CPT_v2 is also tested with X-Plane 12 Zibo737 (B737-800X_XP12_4_00_rc2_0_full)
+
+
 How to upload Firmware to the Core Flight Tech. B737 EFIS Panel?
 
 Please be careful while uploading. Uploading the wrong version can make your device totally useless.
