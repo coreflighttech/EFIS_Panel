@@ -4,7 +4,7 @@ Firmware tested with SPAD_v0.9.12.92 Full Release
 
 Baud Rate is 115200
 
-Online SAPD complet device Snippet is #10856
+Online SPAD complete device Snippet is #10856
 
 R07: Internal devices features:
 - Turn on/off backlight by pressing FPV + MTRS
