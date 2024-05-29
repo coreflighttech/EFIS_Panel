@@ -3,7 +3,7 @@
   <outputs>
     <config guid="38676835-96ca-4284-89a2-f13ed3568bc0">
       <active>true</active>
-      <description>FO EFIS BACKLIGHT SETTING - CHECK YOUR VIDEO FOR SETTING</description>
+      <description>FO EFIS BACKLIGHT SETTING - CHECK YouTube VIDEO FOR SETTING</description>
       <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="SimConnect" VarType="CODE" Value="(L:BL_MainCA, number)" UUID="b9c3c4d8-af5c-4aef-98ac-5b84ce3b6729" />
         <modifiers>
