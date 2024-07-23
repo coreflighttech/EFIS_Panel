@@ -4,6 +4,8 @@ Special thanks to The1L2P (Discord ID: 1L2P#5598) for his excellent work!
 
 CFT_737_EFIS_PANEL_SPAD_1L2P_R20_115200.ino.hex
 
+- Serial device init improvements
+
 Baud Rate is 115200
 
 Internal devices features
