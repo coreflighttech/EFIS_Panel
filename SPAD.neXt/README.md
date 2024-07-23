@@ -1,12 +1,12 @@
 Special thanks to The1L2P (Discord ID: 1L2P#5598) for his excellent work!
 
-Firmware tested with SPAD_v0.9.12.92 Full Release
+# 2024-07-23 R20 release for SPAD 0.9.18.4+ 
+
+CFT_737_EFIS_PANEL_SPAD_1L2P_R20_115200.ino.hex
 
 Baud Rate is 115200
 
-Online SPAD complete device Snippet is #10856
-
-R07: Internal devices features:
+Internal devices features
 - Turn on/off backlight by pressing FPV + MTRS
 - Backlight brightness level setting by pressing FPV and turning BARO encoder
 - Soft reset by pressing RST + STD
@@ -14,16 +14,16 @@ R07: Internal devices features:
 To manage backlight brightness from SPAD, search for this variable.
 - BACKLIGHT_BRI : EFIS backlight brightness from 0 to 255 (DEVICE:1L2P/CFT737EFIS/BACKLIGHT_BRI)
 
-*** Old firmware ***
+Online SPAD complete device Snippet is #10856
+
+![screenshot](https://user-images.githubusercontent.com/53659578/193854791-ab4db9c9-fb3a-49d3-8993-2548e0928471.png)
+
+# Previous firmware
 
 R4b: Internal device features:
 - Turn on/off backlight by pressing FPV + MTRS 
 - Set backlight brightness level by pressing  FPV and turning BARO encoder
 - SPAD Snippet EFIS #6486 or "Core Flight Technologies PMDG 737 EFIS Panel complete device (testing)"
-
-![screenshot](https://user-images.githubusercontent.com/53659578/193854791-ab4db9c9-fb3a-49d3-8993-2548e0928471.png)
-
-*** History ***
 
 CFT_737_EFIS_PANEL_SPAD_1L2P_R07:
 "r07 SPAD 0.9.13.7 update, backlight auto turn OFF on 300s SPAD no ping timeout"
