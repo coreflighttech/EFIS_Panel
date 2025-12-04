@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="38676835-96ca-4284-89a2-f13ed3568bc0">
+      <active>true</active>
+      <description>CPT EFIS BACKLIGHT SETTING - CHECK YOUTUBE VIDEO FOR SETTING</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:BL_MainCA, number)" UUID="b9c3c4d8-af5c-4aef-98ac-5b84ce3b6729" />
+        <test type="Float" value="1" />
+        <modifiers>
+          <transformation active="False" expression="$+10" />
+          <comparison active="True" value="-1" operand="!=" ifValue="255" elseValue="" />
+          <interpolation active="False">
+            <value x="0" y="0" />
+            <value x="0.5" y="127" />
+            <value x="1" y="255" />
+          </interpolation>
+        </modifiers>
+        <display type="Output" serial="CPT_EFIS_v5_3/ SN-1ab-865" trigger="normal" pin="CPT_EFIS_BLIGHT" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="29018f35-4170-40a0-9e85-9b7f720f8ffc">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 5</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_0)" presetId="b8cd4a65-f923-49e5-8682-1e2f1456b405" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c5168126-6fe2-49c4-9b11-a1024c1b98cf">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPTMAP RANGE 10</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_1)" presetId="1e82b2ea-2326-4bff-91db-acc970344dfa" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6de5e458-9f19-4d5d-8c76-b6099efbbc77">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 20</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_2)" presetId="9e4bbd06-12c8-467b-bd6b-70271977854e" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4b05404b-0d57-4f38-a773-1c1a9c146226">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 40</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_3)" presetId="6c0eb97e-b9a2-49a2-b572-e28534326949" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="91fc0faf-c621-43df-9da3-a3daf72687e6">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 80</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_4)" presetId="d65836c9-0fe4-4d1c-b07a-81efec449df2" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fc0a67a0-1076-4f5b-a4cc-ce90d264eebe">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPTMAP RANGE 160</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_5)" presetId="30eb3dca-6da9-4414-9ba6-c36f2f8187b5" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="20cfa3bd-6ddb-4930-b782-c3a9e04f35e3">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 320</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_6)" presetId="03f5a6b2-93ed-4dd5-a39d-b948dcfe174f" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1e44ec15-6526-4f11-9096-672e71e31af6">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MAP RANGE 640</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RANGE_1_RANGE_7)" presetId="cd9f979d-e6d0-457a-a8b0-4273f68de819" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0f00874d-8006-4f34-9258-e65d8f85da89">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPTMODE APP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MODE_1_APP)" presetId="ab3f3cf7-3fee-4328-beb8-9754ff5010ac" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9a11440b-5a17-41b5-ac34-11c811c57f1b">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MODE VOR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MODE_1_VOR)" presetId="f107bc13-fbcf-4898-aa94-a0b71d00b493" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b76b6308-0b0d-4336-9719-919fe87560e2">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MODE MAP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MODE_1_MAP)" presetId="fd1c8d36-fb3d-4bc3-923e-c9fe9e04dc7e" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="48336ba0-6ba7-42a7-a6d7-d52bc95e3979">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MODE PLN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MODE_1_PLN)" presetId="1eacb791-187b-4828-b2cf-0a752f6a61dc" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="683cefa6-708e-430d-8a7a-4e8ed1e5d79d">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT RST BUTTON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_RST_1_PUSH)" presetId="83d7728b-658f-42ab-bc1b-b551949337b2" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ff847c3e-e3c2-441e-9261-507800e34df9">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT STD BUTTON</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_BARO_STD_1_PUSH)" presetId="ef444077-7d09-44cf-b0dc-d3ddcc85a198" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="beb5c16b-4212-4266-b1c8-db70b46dc070">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT IN/HPA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="7">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_BARO_UNIT_1_TOGGLE) == 0" presetId="5e57bb2a-3247-4539-981d-94a6ebfef177" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_BARO_UNIT_1_TOGGLE) == 1" presetId="0" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="90947679-b2eb-44b3-9a1b-b3b54ff27125">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT RADIO/BARO</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux2" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MINS_REF_1_TOGGLE) == 0" presetId="e4fa7b11-994b-4c13-bcb5-96d1f89ae6da" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MINS_REF_1_TOGGLE) == 1" presetId="-" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="34fa40fa-8ccc-495e-8400-4b8659454f7b">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT WXR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="0">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_WXR_1_PUSH)" presetId="6856f3a6-24fb-4ab8-8772-d4ad7494317c" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="00da5958-9c54-4b65-8b6b-ca2fa3745d20">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT STA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="1">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_STA_1_PUSH)" presetId="eaa0d736-e8ca-4434-967c-e6658c12d586" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ee6e7d7c-d89c-4959-9744-f1ca271a7279">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT WPT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="2">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_WPT_1_PUSH)" presetId="72fb357e-5ae0-4795-add6-d9a634c24e98" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3c58fe70-7a40-460a-af3c-ce2177ae2a4e">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT APT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="3">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_ARPT_1_PUSH)" presetId="ccf52957-d19e-445d-8466-eb1048169d8f" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="935df8b3-d59f-48a4-9ee4-de4b30884f91">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT DATA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="4">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_DATA_1_PUSH)" presetId="3f51792a-98be-424d-8692-8d7699d8f227" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="41c8a4ba-3a9b-4f5c-ac8a-1c9d9f524db9">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT POS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="5">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_POS_1_PUSH)" presetId="edfdf493-9720-4ef6-ae4a-e659761761a8" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="87bc8923-f614-4012-b854-6d94ecf1cf66">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT TERR</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_InMux3" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <inputMultiplexer DataPin="6">
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_TERR_1_PUSH)" presetId="c8dd7324-1564-4c22-a3ee-16b3e2c6dec0" />
+        </inputMultiplexer>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="83e052f9-be70-4948-821b-7d57caaa820b">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT VOR1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_VOR1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_1_1_VOR)" presetId="67aa1758-191e-4dfe-9deb-8d5fe498a628" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_1_1_OFF)" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="33712923-e345-4e26-bb97-5c6c8d6bc10a">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT VOR2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_VOR2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_2_1_VOR)" presetId="0a02d117-c13a-4060-a10a-5835ef46e6be" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_2_1_OFF)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="282eb802-3a43-4b10-ad0e-c74d43af4c2e">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT ADF1</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_ADF1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_1_1_ADF)" presetId="99338d68-a06e-4bf6-b84f-b3357271dcd8" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_1_1_OFF)" presetId="-" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5fee9232-19c7-4997-bc89-258161c4bb30">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT ADF2</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_ADF2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_2_1_ADF)" presetId="22051175-db61-4272-8d14-f05116b2b974" />
+          <onRelease type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_VOR_ADF_2_1_OFF)" presetId="0" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2d792fde-7830-44fa-88f9-355005781d7b">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MTRS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_MTRS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_MTRS_1_PUSH)" presetId="a5df235b-5e0b-4e6f-bc83-c3e3758d541f" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="927976fe-c31f-4da8-ae9b-f5858c5193ba">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT FPV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_FPV" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(&gt;B:EFIS_FPV_1_PUSH)" presetId="097bad4b-dc28-437e-8b60-008cba484d8e" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="88620743-325f-455e-9a8f-49640eec1528">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT MINS ENCODER</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFIS_MINS_EN" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:EFIS_MINS_1_Dec)" presetId="840ac37c-a830-480d-8a2c-bcf79cffab33" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:EFIS_MINS_1_Inc)" presetId="e28ce87c-8d52-4e80-81ab-e51bb53db92c" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a4d76b95-25d3-46e0-b552-7a7712332fe1">
+      <active>true</active>
+      <description>MSFS2020_EFIS_CPT BARO ENCODER</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.1.4.3, Culture=neutral, PublicKeyToken=null" serial="CPT_EFIS_v5_3/ SN-1ab-865" name="CPT_EFS_BARO_EN" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;B:EFIS_BARO_1_Dec)" presetId="2f238645-90ef-41e5-b2be-96f51756cac9" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="1 (&gt;B:EFIS_BARO_1_Inc)" presetId="d6863d34-04dc-45c2-ae8f-375cbd5efe91" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
